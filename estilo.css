@@ -1,0 +1,62 @@
+.principal
+        {
+            position: relative;
+            width: 500px;
+            height: 250px;
+            background-color: darkblue;
+            border-style: solid;
+            border-width: 5px;
+            border-color: purple;
+            border-radius: 20px; /* Margem */
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
+        .interna
+        {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            color: white;
+        }
+        .menu:hover
+        {
+            background-color: green;
+        }
+        .menu
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            left: 175px;
+            top: 0px;
+
+        }
+        .centralizado
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
